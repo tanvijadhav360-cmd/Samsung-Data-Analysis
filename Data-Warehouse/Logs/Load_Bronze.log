@@ -1,0 +1,68 @@
+2026-05-09 15:00:46,951 | INFO | ======================================================================
+2026-05-09 15:00:46,951 | INFO | BRONZE LAYER DATA INSERTION PROCESS STARTED
+2026-05-09 15:00:46,951 | INFO | ======================================================================
+2026-05-09 15:00:46,951 | INFO | Connecting to PostgreSQL database...
+2026-05-09 15:00:47,012 | INFO | Database connection established successfully.
+
+2026-05-09 15:00:47,012 | INFO | ======================================================================
+2026-05-09 15:00:47,012 | INFO | TRUNCATING TABLES
+2026-05-09 15:00:47,012 | INFO | ======================================================================
+2026-05-09 15:00:47,021 | INFO | Truncated bronze.as2_complaints: 0 rows deleted, 0 remaining
+2026-05-09 15:00:47,027 | INFO | Truncated bronze.as2_returns: 0 rows deleted, 0 remaining
+2026-05-09 15:00:47,033 | INFO | Truncated bronze.as2_service_centers: 0 rows deleted, 0 remaining
+2026-05-09 15:00:47,039 | INFO | Truncated bronze.crm_customers: 0 rows deleted, 0 remaining
+2026-05-09 15:00:47,045 | INFO | Truncated bronze.crm_product_reviews: 0 rows deleted, 0 remaining
+2026-05-09 15:00:47,051 | INFO | Truncated bronze.fip_financial_transactions: 0 rows deleted, 0 remaining
+2026-05-09 15:00:47,057 | INFO | Truncated bronze.hrm_campaigns: 0 rows deleted, 0 remaining
+2026-05-09 15:00:47,063 | INFO | Truncated bronze.hrm_employees: 0 rows deleted, 0 remaining
+2026-05-09 15:00:47,068 | INFO | Truncated bronze.hrm_products: 0 rows deleted, 0 remaining
+2026-05-09 15:00:47,074 | INFO | Truncated bronze.sci_inventory: 0 rows deleted, 0 remaining
+2026-05-09 15:00:47,080 | INFO | Truncated bronze.sci_suppliers: 0 rows deleted, 0 remaining
+2026-05-09 15:00:47,086 | INFO | Truncated bronze.sci_warehouses: 0 rows deleted, 0 remaining
+2026-05-09 15:00:47,092 | INFO | Truncated bronze.snd_dealers: 0 rows deleted, 0 remaining
+2026-05-09 15:00:47,098 | INFO | Truncated bronze.snd_sales_transactions: 0 rows deleted, 0 remaining
+2026-05-09 15:00:47,098 | INFO | ======================================================================
+2026-05-09 15:00:47,098 | INFO | All tables truncated successfully
+2026-05-09 15:00:47,098 | INFO | ======================================================================
+
+2026-05-09 15:00:47,099 | INFO | Started inserting 'complaints.csv' data into 'bronze.as2_complaints' (File size: 18.92 MB)
+2026-05-09 15:00:48,398 | INFO | Completed 'bronze.as2_complaints': 200,000 rows inserted in 1.3s (153,846 rows/sec)
+2026-05-09 15:00:48,401 | INFO | Started inserting 'returns.csv' data into 'bronze.as2_returns' (File size: 8.29 MB)
+2026-05-09 15:00:48,938 | INFO | Completed 'bronze.as2_returns': 77,250 rows inserted in 0.54s (143,055 rows/sec)
+2026-05-09 15:00:48,939 | INFO | Started inserting 'service_centers.csv' data into 'bronze.as2_service_centers' (File size: 0.15 MB)
+2026-05-09 15:00:48,975 | INFO | Completed 'bronze.as2_service_centers': 1,200 rows inserted in 0.04s (30,000 rows/sec)
+2026-05-09 15:00:48,977 | INFO | Started inserting 'customers.csv' data into 'bronze.crm_customers' (File size: 25.47 MB)
+2026-05-09 15:00:50,533 | INFO | Completed 'bronze.crm_customers': 200,000 rows inserted in 1.56s (128,205 rows/sec)
+2026-05-09 15:00:50,534 | INFO | Started inserting 'product_reviews.csv' data into 'bronze.crm_product_reviews' (File size: 4.10 MB)
+2026-05-09 15:00:50,746 | INFO | Completed 'bronze.crm_product_reviews': 50,000 rows inserted in 0.21s (238,095 rows/sec)
+2026-05-09 15:00:50,747 | INFO | Started inserting 'financial_transactions.csv' data into 'bronze.fip_financial_transactions' (File size: 62.70 MB)
+2026-05-09 15:00:54,748 | INFO | Completed 'bronze.fip_financial_transactions': 663,000 rows inserted in 4.0s (165,750 rows/sec)
+2026-05-09 15:00:54,749 | INFO | Started inserting 'campaigns.csv' data into 'bronze.hrm_campaigns' (File size: 0.11 MB)
+2026-05-09 15:00:54,766 | INFO | Completed 'bronze.hrm_campaigns': 1,000 rows inserted in 0.02s (50,000 rows/sec)
+2026-05-09 15:00:54,767 | INFO | Started inserting 'employees.csv' data into 'bronze.hrm_employees' (File size: 1.65 MB)
+2026-05-09 15:00:54,865 | INFO | Completed 'bronze.hrm_employees': 15,000 rows inserted in 0.1s (150,000 rows/sec)
+2026-05-09 15:00:54,866 | INFO | Started inserting 'products.csv' data into 'bronze.hrm_products' (File size: 0.21 MB)
+2026-05-09 15:00:54,898 | INFO | Completed 'bronze.hrm_products': 2,000 rows inserted in 0.03s (66,666 rows/sec)
+2026-05-09 15:00:54,898 | INFO | Started inserting 'inventory.csv' data into 'bronze.sci_inventory' (File size: 6.00 MB)
+2026-05-09 15:00:55,254 | INFO | Completed 'bronze.sci_inventory': 100,000 rows inserted in 0.36s (277,777 rows/sec)
+2026-05-09 15:00:55,254 | INFO | Started inserting 'suppliers.csv' data into 'bronze.sci_suppliers' (File size: 0.06 MB)
+2026-05-09 15:00:55,278 | INFO | Completed 'bronze.sci_suppliers': 500 rows inserted in 0.02s (25,000 rows/sec)
+2026-05-09 15:00:55,279 | INFO | Started inserting 'warehouses.csv' data into 'bronze.sci_warehouses' (File size: 0.00 MB)
+2026-05-09 15:00:55,284 | INFO | Completed 'bronze.sci_warehouses': 25 rows inserted in 0.0s (0 rows/sec)
+2026-05-09 15:00:55,285 | INFO | Started inserting 'dealers.csv' data into 'bronze.snd_dealers' (File size: 1.15 MB)
+2026-05-09 15:00:55,355 | INFO | Completed 'bronze.snd_dealers': 10,000 rows inserted in 0.07s (142,857 rows/sec)
+2026-05-09 15:00:55,356 | INFO | Started inserting 'sales_transactions.csv' data into 'bronze.snd_sales_transactions' (File size: 78.94 MB)
+2026-05-09 15:01:00,611 | INFO | Completed 'bronze.snd_sales_transactions': 750,000 rows inserted in 5.26s (142,585 rows/sec)
+2026-05-09 15:01:00,611 | INFO | ======================================================================
+2026-05-09 15:01:00,611 | INFO | DATA INSERTION SUMMARY
+2026-05-09 15:01:00,612 | INFO | ======================================================================
+2026-05-09 15:01:00,612 | INFO | Tables processed: 14
+2026-05-09 15:01:00,612 | INFO | Successful: 14
+2026-05-09 15:01:00,612 | INFO | Failed: 0
+2026-05-09 15:01:00,612 | INFO | Total time: 13.66 seconds
+
+2026-05-09 15:01:00,612 | INFO | ======================================================================
+2026-05-09 15:01:00,613 | INFO | BRONZE LAYER DATA INSERTION COMPLETED SUCCESSFULLY
+2026-05-09 15:01:00,613 | INFO | ======================================================================
+
+2026-05-09 15:01:00,613 | INFO | Database connection closed.

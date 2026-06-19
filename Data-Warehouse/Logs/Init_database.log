@@ -1,0 +1,23 @@
+2026-05-09 14:59:21,676 | INFO | ======================================================================
+2026-05-09 14:59:21,677 | INFO | SAMSUNG WAREHOUSE SETUP - STARTING
+2026-05-09 14:59:21,677 | INFO | ======================================================================
+2026-05-09 14:59:21,677 | INFO | Connecting to PostgreSQL Database...
+2026-05-09 14:59:21,732 | INFO | Database connection Established Successfully.
+
+2026-05-09 14:59:21,732 | INFO | ======================================================================
+2026-05-09 14:59:21,732 | INFO | Starting Schema Creation Process...
+2026-05-09 14:59:21,732 | INFO | ======================================================================
+2026-05-09 14:59:21,732 | INFO | Executing: `bronze` Schema Creation Query
+2026-05-09 14:59:21,749 | INFO | `bronze` Schema Created Successfully.
+2026-05-09 14:59:21,749 | INFO | Executing: `silver` Schema Creation Query
+2026-05-09 14:59:21,750 | INFO | `silver` Schema Created Successfully.
+2026-05-09 14:59:21,750 | INFO | Executing: `gold` Schema Creation Query
+2026-05-09 14:59:21,751 | INFO | `gold` Schema Created Successfully.
+2026-05-09 14:59:21,751 | INFO | All Schemas created successfully!
+
+2026-05-09 14:59:21,751 | INFO | ======================================================================
+2026-05-09 14:59:21,751 | INFO | SAMSUNG WAREHOUSE SETUP COMPLETED SUCCESSFULLY
+2026-05-09 14:59:21,751 | INFO | Total time: 0.08 seconds
+2026-05-09 14:59:21,751 | INFO | ======================================================================
+
+2026-05-09 14:59:21,752 | INFO | Database connection closed.
