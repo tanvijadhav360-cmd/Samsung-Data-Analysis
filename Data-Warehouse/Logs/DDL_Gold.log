@@ -1,0 +1,74 @@
+2026-05-09 15:10:56,092 | INFO | ======================================================================
+2026-05-09 15:10:56,093 | INFO | GOLD LAYER VIEWS CREATION - STARTING
+2026-05-09 15:10:56,093 | INFO | ======================================================================
+2026-05-09 15:10:56,093 | INFO | Connecting to PostgreSQL Database...
+2026-05-09 15:10:56,155 | INFO | Database connection Established Successfully.
+
+2026-05-09 15:10:56,155 | INFO | ======================================================================
+2026-05-09 15:10:56,155 | INFO | DROPPING EXISTING VIEWS
+2026-05-09 15:10:56,155 | INFO | ======================================================================
+2026-05-09 15:10:56,163 | INFO | Dropped View: gold.dim_products
+2026-05-09 15:10:56,164 | INFO | Dropped View: gold.dim_warehouses
+2026-05-09 15:10:56,164 | INFO | Dropped View: gold.dim_service_centers
+2026-05-09 15:10:56,165 | INFO | Dropped View: gold.dim_customers
+2026-05-09 15:10:56,165 | INFO | Dropped View: gold.dim_dealers
+2026-05-09 15:10:56,165 | INFO | Dropped View: gold.dim_suppliers
+2026-05-09 15:10:56,166 | INFO | Dropped View: gold.dim_campaigns
+2026-05-09 15:10:56,166 | INFO | Dropped View: gold.dim_employees
+2026-05-09 15:10:56,167 | INFO | Dropped View: gold.fact_inventory
+2026-05-09 15:10:56,167 | INFO | Dropped View: gold.fact_sales_transactions
+2026-05-09 15:10:56,167 | INFO | Dropped View: gold.fact_complaints
+2026-05-09 15:10:56,168 | INFO | Dropped View: gold.fact_returns
+2026-05-09 15:10:56,168 | INFO | Dropped View: gold.fact_financial_transactions
+2026-05-09 15:10:56,168 | INFO | Dropped View: gold.fact_product_reviews
+2026-05-09 15:10:56,168 | INFO | ======================================================================
+2026-05-09 15:10:56,168 | INFO | Dropped 14/14 Views
+2026-05-09 15:10:56,169 | INFO | ======================================================================
+
+2026-05-09 15:10:56,169 | INFO | ======================================================================
+2026-05-09 15:10:56,169 | INFO | Starting Gold Layer Views Creation Process...
+2026-05-09 15:10:56,169 | INFO | ======================================================================
+2026-05-09 15:10:56,169 | INFO | Executing: gold.dim_products View Query
+2026-05-09 15:10:56,174 | INFO | gold.dim_products View Created Successfully in (0.01s).
+2026-05-09 15:10:56,174 | INFO | Executing: gold.dim_warehouses View Query
+2026-05-09 15:10:56,273 | INFO | gold.dim_warehouses View Created Successfully in (0.10s).
+2026-05-09 15:10:56,273 | INFO | Executing: gold.dim_service_centers View Query
+2026-05-09 15:10:56,276 | INFO | gold.dim_service_centers View Created Successfully in (0.00s).
+2026-05-09 15:10:56,276 | INFO | Executing: gold.dim_customers View Query
+2026-05-09 15:10:56,279 | INFO | gold.dim_customers View Created Successfully in (0.00s).
+2026-05-09 15:10:56,279 | INFO | Executing: gold.dim_dealers View Query
+2026-05-09 15:10:56,281 | INFO | gold.dim_dealers View Created Successfully in (0.00s).
+2026-05-09 15:10:56,281 | INFO | Executing: gold.dim_suppliers View Query
+2026-05-09 15:10:56,284 | INFO | gold.dim_suppliers View Created Successfully in (0.00s).
+2026-05-09 15:10:56,284 | INFO | Executing: gold.dim_campaigns View Query
+2026-05-09 15:10:56,286 | INFO | gold.dim_campaigns View Created Successfully in (0.00s).
+2026-05-09 15:10:56,286 | INFO | Executing: gold.dim_employees View Query
+2026-05-09 15:10:56,289 | INFO | gold.dim_employees View Created Successfully in (0.00s).
+2026-05-09 15:10:56,289 | INFO | Executing: gold.fact_inventory View Query
+2026-05-09 15:10:56,291 | INFO | gold.fact_inventory View Created Successfully in (0.00s).
+2026-05-09 15:10:56,291 | INFO | Executing: gold.fact_sales_transactions View Query
+2026-05-09 15:10:56,294 | INFO | gold.fact_sales_transactions View Created Successfully in (0.00s).
+2026-05-09 15:10:56,294 | INFO | Executing: gold.fact_complaints View Query
+2026-05-09 15:10:56,296 | INFO | gold.fact_complaints View Created Successfully in (0.00s).
+2026-05-09 15:10:56,296 | INFO | Executing: gold.fact_returns View Query
+2026-05-09 15:10:56,298 | INFO | gold.fact_returns View Created Successfully in (0.00s).
+2026-05-09 15:10:56,298 | INFO | Executing: gold.fact_financial_transactions View Query
+2026-05-09 15:10:56,301 | INFO | gold.fact_financial_transactions View Created Successfully in (0.00s).
+2026-05-09 15:10:56,301 | INFO | Executing: gold.fact_product_reviews View Query
+2026-05-09 15:10:56,303 | INFO | gold.fact_product_reviews View Created Successfully in (0.00s).
+2026-05-09 15:10:56,303 | INFO | ======================================================================
+2026-05-09 15:10:56,303 | INFO | VIEWS CREATION SUMMARY
+2026-05-09 15:10:56,303 | INFO | ======================================================================
+2026-05-09 15:10:56,303 | INFO | Total operations: 14
+2026-05-09 15:10:56,303 | INFO | Successful: 14
+2026-05-09 15:10:56,304 | INFO | Failed: 0
+2026-05-09 15:10:56,304 | INFO | ======================================================================
+
+2026-05-09 15:10:56,304 | INFO | All Views Created successfully!
+
+2026-05-09 15:10:56,304 | INFO | ======================================================================
+2026-05-09 15:10:56,304 | INFO | GOLD LAYER VIEWS CREATION COMPLETED SUCCESSFULLY
+2026-05-09 15:10:56,304 | INFO | Total time: 0.21 seconds
+2026-05-09 15:10:56,304 | INFO | ======================================================================
+
+2026-05-09 15:10:56,306 | INFO | Database connection closed.
