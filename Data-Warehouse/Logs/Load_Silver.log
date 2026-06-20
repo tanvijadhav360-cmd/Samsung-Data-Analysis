@@ -1,0 +1,74 @@
+2026-05-09 15:05:06,825 | INFO | ======================================================================
+2026-05-09 15:05:06,825 | INFO | SILVER LAYER DATA INSERTION - STARTING
+2026-05-09 15:05:06,826 | INFO | ======================================================================
+2026-05-09 15:05:06,826 | INFO | Connecting to PostgreSQL Database...
+2026-05-09 15:05:06,889 | INFO | Database connection Established Successfully.
+
+2026-05-09 15:05:06,889 | INFO | ======================================================================
+2026-05-09 15:05:06,889 | INFO | TRUNCATING TABLES
+2026-05-09 15:05:06,889 | INFO | ======================================================================
+2026-05-09 15:05:06,895 | INFO | Truncated silver.as2_complaints: 0 rows deleted, 0 remaining
+2026-05-09 15:05:06,912 | INFO | Truncated silver.as2_returns: 0 rows deleted, 0 remaining
+2026-05-09 15:05:06,918 | INFO | Truncated silver.as2_service_centers: 0 rows deleted, 0 remaining
+2026-05-09 15:05:06,924 | INFO | Truncated silver.crm_customers: 0 rows deleted, 0 remaining
+2026-05-09 15:05:06,929 | INFO | Truncated silver.crm_product_reviews: 0 rows deleted, 0 remaining
+2026-05-09 15:05:06,935 | INFO | Truncated silver.fip_financial_transactions: 0 rows deleted, 0 remaining
+2026-05-09 15:05:06,941 | INFO | Truncated silver.hrm_campaigns: 0 rows deleted, 0 remaining
+2026-05-09 15:05:06,948 | INFO | Truncated silver.hrm_employees: 0 rows deleted, 0 remaining
+2026-05-09 15:05:06,954 | INFO | Truncated silver.hrm_products: 0 rows deleted, 0 remaining
+2026-05-09 15:05:06,956 | INFO | Truncated silver.sci_inventory: 0 rows deleted, 0 remaining
+2026-05-09 15:05:06,962 | INFO | Truncated silver.sci_suppliers: 0 rows deleted, 0 remaining
+2026-05-09 15:05:06,968 | INFO | Truncated silver.sci_warehouses: 0 rows deleted, 0 remaining
+2026-05-09 15:05:06,975 | INFO | Truncated silver.snd_dealers: 0 rows deleted, 0 remaining
+2026-05-09 15:05:06,980 | INFO | Truncated silver.snd_sales_transactions: 0 rows deleted, 0 remaining
+2026-05-09 15:05:06,980 | INFO | ======================================================================
+2026-05-09 15:05:06,980 | INFO | All tables truncated successfully
+2026-05-09 15:05:06,980 | INFO | ======================================================================
+
+2026-05-09 15:05:06,980 | INFO | ======================================================================
+2026-05-09 15:05:06,981 | INFO | Starting Silver Layer Data Insertion Process...
+2026-05-09 15:05:06,981 | INFO | ======================================================================
+2026-05-09 15:05:06,981 | INFO | Executing: silver.as2_complaints Insertion Query
+2026-05-09 15:05:14,037 | INFO | silver.as2_complaints Table Data Inserted Successfully in (7.06s).
+2026-05-09 15:05:14,038 | INFO | Executing: silver.as2_returns Insertion Query
+2026-05-09 15:05:24,574 | INFO | silver.as2_returns Table Data Inserted Successfully in (10.54s).
+2026-05-09 15:05:24,574 | INFO | Executing: silver.as2_service_centers Insertion Query
+2026-05-09 15:05:24,612 | INFO | silver.as2_service_centers Table Data Inserted Successfully in (0.04s).
+2026-05-09 15:05:24,612 | INFO | Executing: silver.crm_customers Insertion Query
+2026-05-09 15:06:06,673 | INFO | silver.crm_customers Table Data Inserted Successfully in (42.06s).
+2026-05-09 15:06:06,673 | INFO | Executing: silver.crm_product_reviews Insertion Query
+2026-05-09 15:06:07,599 | INFO | silver.crm_product_reviews Table Data Inserted Successfully in (0.93s).
+2026-05-09 15:06:07,599 | INFO | Executing: silver.fip_financial_transactions Insertion Query
+2026-05-09 15:06:35,099 | INFO | silver.fip_financial_transactions Table Data Inserted Successfully in (27.50s).
+2026-05-09 15:06:35,099 | INFO | Executing: silver.hrm_campaigns Insertion Query
+2026-05-09 15:06:35,278 | INFO | silver.hrm_campaigns Table Data Inserted Successfully in (0.18s).
+2026-05-09 15:06:35,278 | INFO | Executing: silver.hrm_employees Insertion Query
+2026-05-09 15:06:38,191 | INFO | silver.hrm_employees Table Data Inserted Successfully in (2.91s).
+2026-05-09 15:06:38,191 | INFO | Executing: silver.hrm_products Insertion Query
+2026-05-09 15:06:38,256 | INFO | silver.hrm_products Table Data Inserted Successfully in (0.06s).
+2026-05-09 15:06:38,256 | INFO | Executing: silver.sci_inventory Insertion Query
+2026-05-09 15:06:42,080 | INFO | silver.sci_inventory Table Data Inserted Successfully in (3.82s).
+2026-05-09 15:06:42,080 | INFO | Executing: silver.sci_suppliers Insertion Query
+2026-05-09 15:06:42,103 | INFO | silver.sci_suppliers Table Data Inserted Successfully in (0.02s).
+2026-05-09 15:06:42,103 | INFO | Executing: silver.sci_warehouses Insertion Query
+2026-05-09 15:06:42,108 | INFO | silver.sci_warehouses Table Data Inserted Successfully in (0.00s).
+2026-05-09 15:06:42,108 | INFO | Executing: silver.snd_dealers Insertion Query
+2026-05-09 15:06:42,665 | INFO | silver.snd_dealers Table Data Inserted Successfully in (0.56s).
+2026-05-09 15:06:42,665 | INFO | Executing: silver.snd_sales_transactions Insertion Query
+2026-05-09 15:08:59,367 | INFO | silver.snd_sales_transactions Table Data Inserted Successfully in (136.70s).
+2026-05-09 15:08:59,367 | INFO | ======================================================================
+2026-05-09 15:08:59,367 | INFO | DATA INSERTION SUMMARY
+2026-05-09 15:08:59,367 | INFO | ======================================================================
+2026-05-09 15:08:59,367 | INFO | Total operations: 14
+2026-05-09 15:08:59,368 | INFO | Successful: 14
+2026-05-09 15:08:59,368 | INFO | Failed: 0
+2026-05-09 15:08:59,368 | INFO | ======================================================================
+
+2026-05-09 15:08:59,368 | INFO | All Data Inserted successfully!
+
+2026-05-09 15:08:59,368 | INFO | ======================================================================
+2026-05-09 15:08:59,368 | INFO | SILVER LAYER DATA INSERTION COMPLETED SUCCESSFULLY
+2026-05-09 15:08:59,368 | INFO | Total time: 232.54 seconds
+2026-05-09 15:08:59,368 | INFO | ======================================================================
+
+2026-05-09 15:08:59,370 | INFO | Database connection closed.

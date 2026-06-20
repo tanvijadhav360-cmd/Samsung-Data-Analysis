@@ -1,0 +1,39 @@
+2026-05-09 15:04:27,466 | INFO | ======================================================================
+2026-05-09 15:04:27,466 | INFO | HELPER FUNCTION SETUP - STARTING
+2026-05-09 15:04:27,467 | INFO | ======================================================================
+2026-05-09 15:04:27,467 | INFO | Connecting to PostgreSQL Database...
+2026-05-09 15:04:27,651 | INFO | Database connection Established Successfully.
+
+2026-05-09 15:04:27,651 | INFO | ======================================================================
+2026-05-09 15:04:27,652 | INFO | Starting Helper Function Creation Process...
+2026-05-09 15:04:27,652 | INFO | ======================================================================
+2026-05-09 15:04:27,652 | INFO | Executing: cleaning Schema Query
+2026-05-09 15:04:27,676 | INFO | cleaning Schema Created Successfully in (0.02s).
+2026-05-09 15:04:27,677 | INFO | Executing: fn_to_boolean Function Query
+2026-05-09 15:04:27,734 | INFO | fn_to_boolean Function Created Successfully in (0.06s).
+2026-05-09 15:04:27,734 | INFO | Executing: fn_clean_phone Function Query
+2026-05-09 15:04:27,736 | INFO | fn_clean_phone Function Created Successfully in (0.00s).
+2026-05-09 15:04:27,736 | INFO | Executing: fn_parse_date Function Query
+2026-05-09 15:04:27,744 | INFO | fn_parse_date Function Created Successfully in (0.01s).
+2026-05-09 15:04:27,745 | INFO | Executing: fn_parse_epoch_or_date Function Query
+2026-05-09 15:04:27,746 | INFO | fn_parse_epoch_or_date Function Created Successfully in (0.00s).
+2026-05-09 15:04:27,746 | INFO | Executing: fn_parse_gst_pct Function Query
+2026-05-09 15:04:27,748 | INFO | fn_parse_gst_pct Function Created Successfully in (0.00s).
+2026-05-09 15:04:27,748 | INFO | Executing: fn_salary_to_annual Function Query
+2026-05-09 15:04:27,750 | INFO | fn_salary_to_annual Function Created Successfully in (0.00s).
+2026-05-09 15:04:27,751 | INFO | ======================================================================
+2026-05-09 15:04:27,751 | INFO | HELPER FUNCTION SUMMARY
+2026-05-09 15:04:27,751 | INFO | ======================================================================
+2026-05-09 15:04:27,752 | INFO | Total operations: 7
+2026-05-09 15:04:27,752 | INFO | Successful: 7
+2026-05-09 15:04:27,752 | INFO | Failed: 0
+2026-05-09 15:04:27,752 | INFO | ======================================================================
+
+2026-05-09 15:04:27,752 | INFO | All Helper Function created successfully!
+
+2026-05-09 15:04:27,753 | INFO | ======================================================================
+2026-05-09 15:04:27,753 | INFO | HELPER FUNCTION CREATION COMPLETED SUCCESSFULLY
+2026-05-09 15:04:27,753 | INFO | Total time: 0.29 seconds
+2026-05-09 15:04:27,753 | INFO | ======================================================================
+
+2026-05-09 15:04:27,754 | INFO | Database connection closed.

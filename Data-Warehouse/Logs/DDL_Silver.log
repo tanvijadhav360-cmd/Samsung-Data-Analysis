@@ -1,0 +1,74 @@
+2026-05-09 15:03:30,614 | INFO | ======================================================================
+2026-05-09 15:03:30,615 | INFO | SAMSUNG WAREHOUSE SETUP - STARTING
+2026-05-09 15:03:30,615 | INFO | ======================================================================
+2026-05-09 15:03:30,615 | INFO | Connecting to PostgreSQL Database...
+2026-05-09 15:03:31,007 | INFO | Database connection Established Successfully.
+
+2026-05-09 15:03:31,008 | INFO | ======================================================================
+2026-05-09 15:03:31,008 | INFO | DROPPING EXISTING TABLES
+2026-05-09 15:03:31,008 | INFO | ======================================================================
+2026-05-09 15:03:31,011 | INFO | Dropped table: as2_complaints
+2026-05-09 15:03:31,012 | INFO | Dropped table: as2_returns
+2026-05-09 15:03:31,014 | INFO | Dropped table: as2_service_centers
+2026-05-09 15:03:31,015 | INFO | Dropped table: crm_customers
+2026-05-09 15:03:31,019 | INFO | Dropped table: crm_product_reviews
+2026-05-09 15:03:31,021 | INFO | Dropped table: fip_financial_transactions
+2026-05-09 15:03:31,022 | INFO | Dropped table: hrm_campaigns
+2026-05-09 15:03:31,023 | INFO | Dropped table: hrm_employees
+2026-05-09 15:03:31,024 | INFO | Dropped table: hrm_products
+2026-05-09 15:03:31,025 | INFO | Dropped table: sci_inventory
+2026-05-09 15:03:31,027 | INFO | Dropped table: sci_suppliers
+2026-05-09 15:03:31,028 | INFO | Dropped table: sci_warehouses
+2026-05-09 15:03:31,029 | INFO | Dropped table: snd_dealers
+2026-05-09 15:03:31,030 | INFO | Dropped table: snd_sales_transactions
+2026-05-09 15:03:31,031 | INFO | ======================================================================
+2026-05-09 15:03:31,031 | INFO | Dropped 14/14 tables
+2026-05-09 15:03:31,032 | INFO | ======================================================================
+
+2026-05-09 15:03:31,032 | INFO | ======================================================================
+2026-05-09 15:03:31,033 | INFO | Starting Silver Layer Table Creation Process...
+2026-05-09 15:03:31,034 | INFO | ======================================================================
+2026-05-09 15:03:31,034 | INFO | Executing: as2_complaints Table Query
+2026-05-09 15:03:31,054 | INFO | as2_complaints Created Successfully in (0.02s).
+2026-05-09 15:03:31,054 | INFO | Executing: as2_returns Table Query
+2026-05-09 15:03:31,069 | INFO | as2_returns Created Successfully in (0.01s).
+2026-05-09 15:03:31,069 | INFO | Executing: as2_service_centers Table Query
+2026-05-09 15:03:31,078 | INFO | as2_service_centers Created Successfully in (0.01s).
+2026-05-09 15:03:31,079 | INFO | Executing: crm_customers Table Query
+2026-05-09 15:03:31,091 | INFO | crm_customers Created Successfully in (0.01s).
+2026-05-09 15:03:31,091 | INFO | Executing: crm_product_reviews Table Query
+2026-05-09 15:03:31,100 | INFO | crm_product_reviews Created Successfully in (0.01s).
+2026-05-09 15:03:31,101 | INFO | Executing: fip_financial_transactions Table Query
+2026-05-09 15:03:31,112 | INFO | fip_financial_transactions Created Successfully in (0.01s).
+2026-05-09 15:03:31,112 | INFO | Executing: hrm_campaigns Table Query
+2026-05-09 15:03:31,122 | INFO | hrm_campaigns Created Successfully in (0.01s).
+2026-05-09 15:03:31,123 | INFO | Executing: hrm_employees Table Query
+2026-05-09 15:03:31,136 | INFO | hrm_employees Created Successfully in (0.01s).
+2026-05-09 15:03:31,136 | INFO | Executing: hrm_products Table Query
+2026-05-09 15:03:31,145 | INFO | hrm_products Created Successfully in (0.01s).
+2026-05-09 15:03:31,145 | INFO | Executing: sci_inventory Table Query
+2026-05-09 15:03:31,151 | INFO | sci_inventory Created Successfully in (0.01s).
+2026-05-09 15:03:31,151 | INFO | Executing: sci_suppliers Table Query
+2026-05-09 15:03:31,161 | INFO | sci_suppliers Created Successfully in (0.01s).
+2026-05-09 15:03:31,161 | INFO | Executing: sci_warehouses Table Query
+2026-05-09 15:03:31,172 | INFO | sci_warehouses Created Successfully in (0.01s).
+2026-05-09 15:03:31,172 | INFO | Executing: snd_dealers Table Query
+2026-05-09 15:03:31,182 | INFO | snd_dealers Created Successfully in (0.01s).
+2026-05-09 15:03:31,183 | INFO | Executing: snd_sales_transactions Table Query
+2026-05-09 15:03:31,186 | INFO | snd_sales_transactions Created Successfully in (0.00s).
+2026-05-09 15:03:31,186 | INFO | ======================================================================
+2026-05-09 15:03:31,186 | INFO | TABLE CREATION SUMMARY
+2026-05-09 15:03:31,187 | INFO | ======================================================================
+2026-05-09 15:03:31,187 | INFO | Total operations: 14
+2026-05-09 15:03:31,187 | INFO | Successful: 14
+2026-05-09 15:03:31,187 | INFO | Failed: 0
+2026-05-09 15:03:31,188 | INFO | ======================================================================
+
+2026-05-09 15:03:31,188 | INFO | All Tables created successfully!
+
+2026-05-09 15:03:31,188 | INFO | ======================================================================
+2026-05-09 15:03:31,188 | INFO | SILVER LAYER TABLES CREATION COMPLETED SUCCESSFULLY
+2026-05-09 15:03:31,188 | INFO | Total time: 0.57 seconds
+2026-05-09 15:03:31,189 | INFO | ======================================================================
+
+2026-05-09 15:03:31,191 | INFO | Database connection closed.
